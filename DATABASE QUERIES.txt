@@ -1,0 +1,18 @@
+CREATE TABLE books(
+    book_number int PRIMARY KEY AUTO_INCREMENT,
+    book_name varchar(255) UNIQUE NOT null,
+    book_price int NOT NULL,
+    book_author varchar(255) NOT NULL,
+    book_category varchar(255) NOT NULL,
+    book_pages int NOT NULL,
+    book_readable varchar(3) NOT NULL,
+    book_discription longtext NOT NULL,
+    book_language varchar(50) NOT NULL,
+    book_image longtext UNIQUE NOT NULL,
+    book_review tinyint(5) NOT NULL
+    
+);
+
+<script src="https://kit.fontawesome.com/12c7af8f08.js" crossorigin="anonymous"></script>
+
+<a href="../bookmark_images/Twisted-Games LifeFeeling (1).pdf" download="twisted_games"></a>
